@@ -1,0 +1,51 @@
+{
+  "name": "tacticalmap-p92",
+  "id": "tacticalmap-p92",
+  "title": "Ships and open water",
+  "description": "Three ships with floors and 3 types of sea, as well as kraken tentacles.",
+  "author": "Tactical Master",
+  "authors": [],
+  "url": "https://www.patreon.com/tacticalmap",
+  "flags": {},
+  "version": "1.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "11",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "ships-and-open-water",
+      "label": "Ships and open water",
+      "path": "packs/ships-and-open-water.db",
+      "type": "Scene",
+	  "entity": "Scene",
+      "module": "ships-and-open-water",
+      "private": false
+    }
+  ],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "relationships": {
+    "requires": [
+      {
+        "id": "tagger",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-Tagger/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/TacticalMap/tacticalmap-p92/main/module.json",
+  "download": "https://github.com/TacticalMap/tacticalmap-p92/archive/refs/heads/main.zip",
+  "protected": false,
+  "coreTranslation": false
+}
